@@ -10,6 +10,15 @@ pipeline {
              script { dockerfileCheck }
             }
         }
+
+
+       stage('Check Python  syntax') {
+           agent any
+            steps {
+             script { pythonCheck }
+            }
+        }
+
 /*
         stage('Check Golang syntax') {
             agent any
