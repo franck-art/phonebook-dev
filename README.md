@@ -1,3 +1,5 @@
+[![Build Status](http://54.88.182.67:8080/buildStatus/icon?job=phonebook)](http://54.88.182.67:8080/job/phonebook/)
+
 # crud-application-using-flask-and-mysql
 A simple CRUD application using Flask and MySQL
 
