@@ -28,14 +28,14 @@ pipeline {
         }
 
 
-/*
+
         stage('Check Golang syntax') {
             agent any
             steps {
              script { golangCheck }
             }
         }
-*/     
+    
 /*       stage('Check NodeJs syntax') {
             agent { docker { image 'node:latest' } }
             steps {
