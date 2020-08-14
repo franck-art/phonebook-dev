@@ -1,7 +1,7 @@
 /* import shared library */
 @Library('jenkins-shared-library')_
 
-pipeline 
+pipeline {
     agent none
     stages {
         stage('Check Dockerfile syntax') {
